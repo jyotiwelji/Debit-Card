@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debit Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col mt-5">
+                <div class="outer">
+                    <div class="inner">
+                        <div class="front">
+
+                            <div class="header mt-3 ms-3">
+                                <img src="assets/logo.png" alt="" style="width: 180px;">
+
+                                <img class="me-4" src="assets/paypak.PNG" style="width: 80px; float: right;">
+                                <p class="debit ms-5 ps-4 text-white">DEBIT CARD</p>
+
+                            </div>
+                            <div class="chip">
+                                <img class="ms-5" src="assets/chip.png" alt="" style="width: 45px;">
+                                <img class="wifi me-5" src="assets/wifi-signal.png" alt="" style="width: 40px;">
+                            </div>
+                            <div class="card-number-box">#### #### #### ####</div>
+                            <div class="flexbox">
+                                <div class="box">
+                                    <div class="card-holder-name">CARD HOLDER NAME</div>
+                                </div>
+                                <div class="box1">
+                                    <span>Expires</span>
+                                    <div class="expiration">
+                                        <span class="exp-month">mm</span>
+                                        <span class="exp-year">yy</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="back">
+                            <p class="customer text-center mt-2">For customer services, call (042 or 021) 111-225-225
+                            </p>
+                            <div class="strip"></div>
+                            <div class="strip1">
+                                <span>CVV</span>
+                                <div class="cvv-box mx-auto"></div>
+                            </div>
+                            <div class="container1 mt-2 mx-3">
+
+                                <p class="customer">AUTHORIZED SIGNATURE <br> This card is the property of the Allied
+                                    Bank Limited.
+                                    It is not transferable and may be revoked by
+                                    the bank at any time without notice. The use of this card is governed by the
+                                    prevailing Terms
+                                    and Conditions..</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="container">
+                    <form action="">
+                        <div class="inputBox">
+                            <span>CARD NUMBER</span>
+                            <input type="text" maxlength="16" class="card-number-input">
+
+                        </div>
+                        <div class="inputBox">
+                            <span>CARD HOLDER NAME</span>
+                            <input type="text" maxlength="16" class="card-holder-input">
+
+                        </div>
+                        <div class="flexbox">
+                            <div class="inputBox">
+                                <span>EXPIRATION MM</span>
+                                <select class="month-input">
+                                    <option value="month" selected disabled>MONTH</option>
+                                    <option value="01">01</option>
+                                    <option value="02">02</option>
+                                    <option value="03">03</option>
+                                    <option value="04">04</option>
+                                    <option value="05">05</option>
+                                    <option value="06">06</option>
+                                    <option value="07">07</option>
+                                    <option value="08">08</option>
+                                    <option value="09">09</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>
+                            </div>
+                            <div class="inputBox">
+                                <span>EXPIRATION YY</span>
+                                <select class="year-input">
+                                    <option value="year" selected disabled>YEAR</option>
+                                    <option value="2025">2025</option>
+                                    <option value="2026">2026</option>
+                                    <option value="2027">2027</option>
+                                    <option value="2028">2028</option>
+                                    <option value="2029">2029</option>
+                                    <option value="2030">2030</option>
+                                    <option value="2031">2031</option>
+                                    <option value="2032">2032</option>
+                                    <option value="2033">2033</option>
+                                    <option value="2034">2034</option>
+                                </select>
+                            </div>
+                            <div class="inputBox">
+                                <span>CVV</span>
+                                <input type="text" maxlength="4" class="cvv-input">
+                            </div>
+                        </div>
+                        <input type="submit" value="SUBMIT" class="submit-btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
